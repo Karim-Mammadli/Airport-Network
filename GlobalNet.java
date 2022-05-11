@@ -9,16 +9,6 @@ public class GlobalNet
     {
         Graph newGraph = new Graph(O.V());
         newGraph.setCodes(O.getCodes());
-//
-//        ArrayList<Edge> HAICAPTAIN = new ArrayList<Edge>();
-//
-//        for(int i = 0; i < regions.length; i++) {
-//             HAICAPTAIN = regions[i].edges();
-//        }
-//        for(int j = 0; j < HAICAPTAIN.size(); j++) {
-//            newGraph.addEdge(HAICAPTAIN.get(j));
-//        }// HEREEEEEEEEE
-
 
         int room = 0;
 
@@ -119,11 +109,6 @@ public class GlobalNet
 
         return resultat;
     }
-//    public static void sasageyo(Graph Graph[] regions) {
-//
-//    }
-//
-//
 
 }
 
